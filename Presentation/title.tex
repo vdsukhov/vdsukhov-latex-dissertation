@@ -1,7 +1,7 @@
 \setbeamertemplate{title page}
 {
     \ifnumequal{\value{logotitle}}{1}{
-        \IfFileExists{images/logo.pdf}{
+        \IfFileExists{images/itmo_logo_white_rus.png}{
             \begin{minipage}[c]{0.15\textwidth}
                 \begin{flushleft}
                     \usebeamercolor[fg]{titlegraphic}\inserttitlegraphic
@@ -42,7 +42,7 @@
 }
 \date{\texorpdfstring{\thesisCity, \thesisYear}{}}
 \institute{\texorpdfstring{\thesisOrganization}{}}
-\IfFileExists{images/logo.pdf}{
+\IfFileExists{images/itmo_logo_white_rus.png}{
     \titlegraphic{\includegraphics[width=\textwidth]{images/logo}}
     \ifnumequal{\value{logoother}}{1}{
         \logo{\includegraphics[width=0.15\textwidth]{images/logo}}
